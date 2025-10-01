@@ -19,17 +19,6 @@
 
 ```mermaid
 
-graph TD
-    A["任務1: 功能整合測試 (7天)"] --> B["任務2: 功能構想 (5天)"]
-    B --> C["任務3: 工作分配 (1天)"]
-    C --> D["任務4: 撰寫程式碼 (30天)"]
-    D --> E["任務5: 功能測試 (1天)"]
-    E --> F["任務6: Debug 與優化 (21天)"]
-    F --> G["任務7: 功能整合測試 (7天)"]
-    G --> H["任務8: 文件與教學整理 (10天)"]
-
-
-
 gantt
     title Project Schedule (Gantt Chart)
     dateFormat  YYYY-MM-DD
