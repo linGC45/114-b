@@ -15,6 +15,10 @@
 
 ---
 
+
+
+```mermaid
+
 graph TD
     A["任務1: 第一階段功能整合測試\n7天"] --> B["任務2: 第二階段功能構想\n5天"]
     B --> C["任務3: 工作分配\n1天"]
@@ -23,9 +27,8 @@ graph TD
     E --> F["任務6: Debug 與優化\n21天"]
     F --> G["任務7: 第二階段功能整合測試\n7天"]
     G --> H["任務8: 撰寫文件與教學整理\n10天"]
-## 2. PERT/CPM 網路圖
 
-```mermaid
+
 gantt
     title Project Schedule (Gantt Chart)
     dateFormat  YYYY-MM-DD
