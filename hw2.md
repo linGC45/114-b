@@ -36,18 +36,19 @@ gantt
     axisFormat  %m/%d
 
     section 第一階段
-    功能整合測試        :a1, 2025-10-01, 7d
-    第二階段功能構想    :a2, after a1, 5d
-    工作分配            :a3, after a2, 1d
+    功能整合測試       :a1, 2025-10-01, 7d
+    第二階段功能構想   :a2, after a1, 5d
+    工作分配           :a3, after a2, 1d
 
     section 開發階段
-    撰寫程式碼          :a4, after a3, 30d
-    功能測試            :a5, after a4, 1d
-    Debug 與優化        :a6, after a5, 21d
+    撰寫程式碼         :a4, after a3, 30d
+    功能測試           :a5, after a4, 1d
+    Debug 與優化       :a6, after a5, 21d
 
     section 第二階段
-    功能整合測試        :a7, after a6, 7d
-    文件與教學整理      :a8, after a7, 10d
+    功能整合測試       :a7, after a6, 7d
+    文件與教學整理     :a8, after a7, 10d
+
 
 
 
